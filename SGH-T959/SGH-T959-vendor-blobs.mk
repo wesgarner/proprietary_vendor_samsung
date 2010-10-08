@@ -18,7 +18,8 @@
 PRODUCT_COPY_FILES := \
     vendor/samsung/SGH-T959/proprietary/lib/libclientgps.so:obj/lib/libclientgps.so \
     vendor/samsung/SGH-T959/proprietary/lib/libsecgps.so:obj/lib/libsecgps.so \
-    vendor/samsung/SGH-T959/proprietary/lib/libcamera.so:obj/lib/libcamera.so
+    vendor/samsung/SGH-T959/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so 
+
 #
 # Wifi
 #
@@ -29,7 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/SGH-T959/proprietary/etc/wifi/bcm4329_aps.bin:system/etc/wifi/bcm4329_aps.bin \
     vendor/samsung/SGH-T959/proprietary/etc/wifi/bcm4329_mfg.bin:system/etc/wifi/bcm4329_mfg.bin \
     vendor/samsung/SGH-T959/proprietary/etc/wifi/bcm4329_sta.bin:system/etc/wifi/bcm4329_sta.bin \
-    vendor/samsung/SGH-T959/proprietary/etc/wifi/wlservice:system/bin/wlservice
+    vendor/samsung/SGH-T959/proprietary/bin/wlservice:system/bin/wlservice
 
 #
 # Display (3D)
@@ -100,5 +101,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/SGH-T959/proprietary/lib/libsvc1domxoc.so:system/lib/libsvc1domxoc.so \
     vendor/samsung/SGH-T959/proprietary/lib/libswmadomxoc.so:system/lib/libswmadomxoc.so \
     vendor/samsung/SGH-T959/proprietary/lib/libswmv7domxoc.so:system/lib/libswmv7domxoc.so \
-    vendor/samsung/SGH-T959/proprietary/lib/libswmv8domxoc.so:system/lib/libswmv8domxoc.so \
+    vendor/samsung/SGH-T959/proprietary/lib/libswmv8domxoc.so:system/lib/libswmv8domxoc.so
+
+#
+# TV-Out
+#
+PRODUCT_COPY_FILES += \
+    vendor/samsung/SGH-T959/proprietary/lib/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \
+    vendor/samsung/SGH-T959/proprietary/lib/libtvout_jni.so:system/lib/libtvout_jni.so \
+    vendor/samsung/SGH-T959/proprietary/lib/libtvoutfimc.so:system/lib/libtvoutfimc.so \
+    vendor/samsung/SGH-T959/proprietary/lib/libtvouthdmi.so:system/lib/libtvouthdmi.so \
+    vendor/samsung/SGH-T959/proprietary/lib/libtvoutservice.so:system/lib/libtvoutservice.so \
+    vendor/samsung/SGH-T959/proprietary/lib/libtvout.so:system/lib/libtvout.so \
+    vendor/samsung/SGH-T959/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
+    vendor/samsung/SGH-T959/proprietary/bin/tvoutserver:system/bin/tvoutserver
 
