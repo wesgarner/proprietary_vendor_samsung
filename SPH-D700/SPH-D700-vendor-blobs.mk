@@ -72,11 +72,9 @@ PRODUCT_COPY_FILES += \
 #
 PRODUCT_COPY_FILES += \
     vendor/samsung/SPH-D700/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/SPH-D700/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libsec-ril40.so:system/lib/libsec-ril40.so \
     vendor/samsung/SPH-D700/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/SPH-D700/proprietary/bin/drexe:system/bin/drexe \
-    vendor/samsung/SPH-D700/proprietary/bin/efsd:system/bin/efsd \
-    vendor/samsung/SPH-D700/proprietary/bin/efsd30:system/bin/efsd30 \
     vendor/samsung/SPH-D700/proprietary/bin/rilclient-test:system/bin/rilclient-test
 
 #

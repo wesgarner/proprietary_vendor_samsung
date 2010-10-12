@@ -9,12 +9,12 @@ aa2g=1
 aa5g=0
 ag0=255
 
-# 11g paparams (100331)
-pa0b0=5282,5282,5410
-pa0b1=64294,64294,64296
-pa0b2=65231,65231,65270
+# 11g paparams 
+pa0b0=5585,5585,5757
+pa0b1=64174,64174,64201
+pa0b2=65162,65162,65207
 pa0itssit=62
-pa0maxpwr=74
+pa0maxpwr=77
 mcs2gpo0=0xaaaa
 mcs2gpo1=0xaaaa
 ofdmpo=0x66666666
@@ -55,8 +55,7 @@ RAW1=80 32 fe 21 02 0c 00 22 2a 01 01 00 00 c5 0 e6 00 00 00 00 00 40 00 00 ff f
 
 sd_gpout=0
 sd_gpval=1
-sd_oobonly=1
-
+sd_oobonly=1
 #for BT-coexistence
 btc_params80=0
 btc_params6=10
