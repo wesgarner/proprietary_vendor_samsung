@@ -16,7 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/samsung/SPH-D700/proprietary/lib/libclientgps.so:obj/lib/libclientgps.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libgps.so:obj/lib/libgps.so \
     vendor/samsung/SPH-D700/proprietary/lib/libsecgps.so:obj/lib/libsecgps.so \
     vendor/samsung/SPH-D700/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so 
 
