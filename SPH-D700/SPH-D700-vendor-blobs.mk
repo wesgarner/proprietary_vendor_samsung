@@ -39,8 +39,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/SPH-D700/proprietary/lib/egl/libEGL_POWERVR_SGX540_120.so:system/lib/egl/libEGL_POWERVR_SGX540_120.so \
     vendor/samsung/SPH-D700/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/SPH-D700/proprietary/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
-    vendor/samsung/SPH-D700/proprietary/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/lib/egl/libGLESv2_POWERVR_SGX540_120.so
-
+    vendor/samsung/SPH-D700/proprietary/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libIMGegl.so:system/lib/libIMGegl.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libpvr2d.so:system/lib/libpvr2d.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libsrv_init.so:system/lib/libsrv_init.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libsrv_um.so:system/lib/libsrv_um.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
+    vendor/samsung/SPH-D700/proprietary/bin/pvrsrvinit:system/bin/pvrsrvinit
 #
 # Sensors, Lights etc
 #
