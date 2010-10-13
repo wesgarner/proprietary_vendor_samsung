@@ -54,9 +54,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/SPH-D700/proprietary/lib/hw/copybit.s5pc110.so:system/lib/hw/copybit.s5pc110.so \
     vendor/samsung/SPH-D700/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
-    vendor/samsung/SPH-D700/proprietary/lib/hw/sensors.SPH-D700.so:system/lib/hw/sensors.SPH-D700.so \
-    vendor/samsung/SPH-D700/proprietary/lib/hw/gralloc.s5pc110.so:system/lib/hw/gralloc.s5pc110.so
-
+    vendor/samsung/SPH-D700/proprietary/lib/hw/gralloc.s5pc110.so:system/lib/hw/gralloc.s5pc110.so 
+#   vendor/samsung/SPH-D700/proprietary/lib/hw/sensors.SPH-D700.so:system/lib/hw/sensors.SPH-D700.so 
+	
 #
 # Camera
 #
@@ -75,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/SPH-D700/proprietary/lib/libsec-ril40.so:system/lib/libsec-ril40.so \
     vendor/samsung/SPH-D700/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/SPH-D700/proprietary/bin/drexe:system/bin/drexe \
+    vendor/samsung/SPH-D700/proprietary/bin/drexe:system/bin/ril \
     vendor/samsung/SPH-D700/proprietary/bin/rilclient-test:system/bin/rilclient-test
 
 #
@@ -121,3 +122,43 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/SPH-D700/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
     vendor/samsung/SPH-D700/proprietary/bin/tvoutserver:system/bin/tvoutserver
 
+#
+# PPP
+#
+PRODUCT_COPY_FILES += \
+    vendor/samsung/SPH-D700/proprietary/bin/pppd_runner:system/bin/pppd_runner \
+    vendor/samsung/SPH-D700/proprietary/bin/pppd:system/bin/pppd \
+    vendor/samsung/SPH-D700/proprietary/etc/init.cdma-pppd:system/etc/init.cdma-pppd \
+    vendor/samsung/SPH-D700/proprietary/etc/init.gprs-pppd:system/etc/init.gprs-pppd \
+    vendor/samsung/SPH-D700/proprietary/etc/ppp/chap-secrets:system/etc/ppp/chap-secrets \
+    vendor/samsung/SPH-D700/proprietary/etc/ppp/ip-up:system/etc/ppp/ip-up \
+    vendor/samsung/SPH-D700/proprietary/etc/ppp/ip-down:system/etc/ppp/ip-down \
+    vendor/samsung/SPH-D700/proprietary/etc/ppp/ip-up-vpn:system/etc/ppp/ip-up-vpn \
+    vendor/samsung/SPH-D700/proprietary/etc/ppp/pap-secrets:system/etc/ppp/pap-secrets \
+    vendor/samsung/SPH-D700/proprietary/etc/ppp/options:system/etc/ppp/options
+
+#
+#Sensors
+#
+#PRODUCT_COPY_FILES += \
+#	vendor/samsung/SPH-D700/proprietary/lib/libsensor_yamaha.so:system/lib/libsensor_yamaha.so \
+#	vendor/samsung/SPH-D700/proprietary/lib/libsensor_yamaha_test.so:system/lib/libsensor_yamaha_test.so \
+#	vendor/samsung/SPH-D700/proprietary/lib/libms3c_yamaha.so:system/lib/libms3c_yamaha.so \
+#	vendor/samsung/SPH-D700/proprietary/bin/sensorserver_yamaha:system/bin/sensorserver_yamaha \
+#	vendor/samsung/SPH-D700/proprietary/bin/sensorcalibutil_yamaha:system/bin/sensorcalibutil_yamaha \
+#	vendor/samsung/SPH-D700/proprietary/bin/sensorstatutil_yamaha:system/bin/sensorstatutil_yamaha
+
+#
+# WIMAX FOR VICTORY!
+#
+PRODUCT_COPY_FILES += \
+	vendor/samsung/SPH-D700/proprietary/lib/libSECmWiMAXcAPI.so:system/lib/libSECmWiMAXcAPI.so \
+	vendor/samsung/SPH-D700/proprietary/lib/libWiMAXLineTest.so:system/lib/libWiMAXLineTest.so \
+	vendor/samsung/SPH-D700/proprietary/lib/libWiMAXNative.so:system/lib/libWiMAXNative.so \
+	vendor/samsung/SPH-D700/proprietary/lib/libWiMAXNativeODB.so:system/lib/libWiMAXNativeODB.so \
+	vendor/samsung/SPH-D700/proprietary/lib/libwimaxne.so:system/lib/libwimaxne.so \
+	vendor/samsung/SPH-D700/proprietary/lib/libwimaxwtm.so:system/lib/libwimaxwtm.so \
+	vendor/samsung/SPH-D700/proprietary/etc/wimax_boot.bin:system/etc/wimax_boot.bin \
+	vendor/samsung/SPH-D700/proprietary/etc/wimaxfw.bin:system/etc/wimaxfw.bin \
+	vendor/samsung/SPH-D700/proprietary/etc/wimaxloader.bin:system/etc/wimaxloader.bin 
+	
