@@ -24,12 +24,25 @@ PRODUCT_COPY_FILES := \
 # Wifi
 #
 PRODUCT_COPY_FILES += \
-    vendor/samsung/SPH-D700/proprietary/lib/libwlservice.so:system/lib/libwlservice.so \
     vendor/samsung/SPH-D700/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/SPH-D700/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/SPH-D700/proprietary/etc/wifi/bcm4329_aps.bin:system/etc/wifi/bcm4329_aps.bin \
     vendor/samsung/SPH-D700/proprietary/etc/wifi/bcm4329_mfg.bin:system/etc/wifi/bcm4329_mfg.bin \
     vendor/samsung/SPH-D700/proprietary/etc/wifi/bcm4329_sta.bin:system/etc/wifi/bcm4329_sta.bin \
+    vendor/samsung/SPH-D700/proprietary/etc/dhcpcd/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \
+    vendor/samsung/SPH-D700/proprietary/etc/wifi/wifi.conf:system/etc/wifi/wifi.conf \
+    vendor/samsung/SPH-D700/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    vendor/samsung/SPH-D700/proprietary/lib/libwibropath.so:system/lib/libwibropath.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libwlservice.so:system/lib/libwlservice.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libwldhcp.so:system/lib/libwldhcp.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libwifitest.so:system/lib/libwifitest.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libwlp2p.so:system/lib/libwlp2p.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libwlp2pclient.so:system/lib/libwlp2pclient.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libwlp2penablejni.so:system/lib/libwlp2penablejni.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libwlwps.so:system/lib/libwlwps.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libwlwpscli.so:system/lib/libwlwpscli.so \
+    vendor/samsung/SPH-D700/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
+    vendor/samsung/SPH-D700/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/samsung/SPH-D700/proprietary/bin/wlservice:system/bin/wlservice
 
 #
