@@ -21,7 +21,7 @@
 #    vendor/samsung/SPH-D700/proprietary/lib/libsecril-client.so:out/target/product/SPH-D700/obj/lib/libsecril-client.so 
 
 #
-# Wifi
+# WiFi & Bluetooth
 #
 PRODUCT_COPY_FILES += \
     vendor/samsung/SPH-D700/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
@@ -43,6 +43,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/SPH-D700/proprietary/lib/libwlwpscli.so:system/lib/libwlwpscli.so \
     vendor/samsung/SPH-D700/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
     vendor/samsung/SPH-D700/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
+	vendor/samsung/SPH-D700/proprietary/bin/wpa_cli:system/bin/wpa_cli \
+	vendor/samsung/SPH-D700/proprietary/bin/wlp2pservice:system/bin/wlp2pservice \
+	vendor/samsung/SPH-D700/proprietary/bin/btld:system/bin/btld \
+	vendor/samsung/SPH-D700/proprietary/bin/BCM4329B1_002.002.023.0417.0435.hcd:system/bin/BCM4329B1_002.002.023.0417.0435.hcd \
+	vendor/samsung/SPH-D700/proprietary/bin/udhcpd:system/bin/udtcpd \
     vendor/samsung/SPH-D700/proprietary/bin/wlservice:system/bin/wlservice
 
 #
@@ -173,5 +178,13 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/SPH-D700/proprietary/lib/libwimaxwtm.so:system/lib/libwimaxwtm.so \
 	vendor/samsung/SPH-D700/proprietary/etc/wimax_boot.bin:system/etc/wimax_boot.bin \
 	vendor/samsung/SPH-D700/proprietary/etc/wimaxfw.bin:system/etc/wimaxfw.bin \
+	vendor/samsung/SPH-D700/proprietary/bin/udhcpd:system/bin/udhcpd \
 	vendor/samsung/SPH-D700/proprietary/etc/wimaxloader.bin:system/etc/wimaxloader.bin 
 	
+#
+# test binary blobs
+#
+PRODUCT_COPY_FILES += \
+	vendor/samsung/SPH-D700/proprietary/bin/immvbsd:system/bin/immvbsd \
+	vendor/samsung/SPH-D700/proprietary/bin/immvibed:system/bin/immvibed \
+	vendor/samsung/SPH-D700/proprietary/bin/racoon:system/bin/racoon
