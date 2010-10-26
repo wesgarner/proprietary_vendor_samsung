@@ -95,7 +95,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/SPH-D700/proprietary/lib/libsec-ril40.so:system/lib/libsec-ril40.so \
     vendor/samsung/SPH-D700/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/SPH-D700/proprietary/bin/drexe:system/bin/drexe \
-    vendor/samsung/SPH-D700/proprietary/bin/drexe:system/bin/ril \
+    vendor/samsung/SPH-D700/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/SPH-D700/proprietary/bin/rilclient-test:system/bin/rilclient-test
 
 #
