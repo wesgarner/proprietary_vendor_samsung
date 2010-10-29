@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/SGH-T959/proprietary/etc/wifi/bcm4329_aps.bin:system/etc/wifi/bcm4329_aps.bin \
     vendor/samsung/SGH-T959/proprietary/etc/wifi/bcm4329_mfg.bin:system/etc/wifi/bcm4329_mfg.bin \
     vendor/samsung/SGH-T959/proprietary/etc/wifi/bcm4329_sta.bin:system/etc/wifi/bcm4329_sta.bin \
-    vendor/samsung/SGH-T959/proprietary/bin/wlservice:system/bin/wlservice
+    vendor/samsung/SGH-T959/proprietary/bin/wlservice:system/bin/wlservice 
 
 #
 # Display (3D)
@@ -39,7 +39,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/SGH-T959/proprietary/lib/egl/libEGL_POWERVR_SGX540_120.so:system/lib/egl/libEGL_POWERVR_SGX540_120.so \
     vendor/samsung/SGH-T959/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/SGH-T959/proprietary/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
-    vendor/samsung/SGH-T959/proprietary/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/lib/egl/libGLESv2_POWERVR_SGX540_120.so
+    vendor/samsung/SGH-T959/proprietary/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
+    vendor/samsung/SGH-T959/proprietary/lib/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
+    vendor/samsung/SGH-T959/proprietary/lib/libIMGegl.so:system/lib/libIMGegl.so \
+    vendor/samsung/SGH-T959/proprietary/lib/libsrv_init.so:system/lib/libsrv_init.so \
+    vendor/samsung/SGH-T959/proprietary/lib/libsrv_um.so:system/lib/libsrv_um.so
 
 #
 # Sensors, Lights etc
@@ -47,8 +51,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/SGH-T959/proprietary/lib/hw/copybit.s5pc110.so:system/lib/hw/copybit.s5pc110.so \
     vendor/samsung/SGH-T959/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
-    vendor/samsung/SGH-T959/proprietary/lib/hw/sensors.SGH-T959.so:system/lib/hw/sensors.SGH-T959.so \
-    vendor/samsung/SGH-T959/proprietary/lib/hw/gralloc.s5pc110.so:system/lib/hw/gralloc.s5pc110.so
+    vendor/samsung/SGH-T959/proprietary/lib/hw/sensors.SGH-T959.so:system/lib/hw/sensors.SGH-T959.so \   
+    vendor/samsung/SGH-T959/proprietary/lib/hw/gralloc.s5pc110.so:system/lib/hw/gralloc.s5pc110.so \
+    vendor/samsung/SGH-T959/proprietary/lib/libms3c_yamaha.so:system/lib/libms3c_yamaha.so \
+    vendor/samsung/SGH-T959/proprietary/lib/libsensor_yamaha.so:system/lib/libsensor_yamaha.so
 
 #
 # Camera
